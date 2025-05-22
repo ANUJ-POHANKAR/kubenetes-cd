@@ -27,7 +27,7 @@ metadata:
   name: tomcat-service
 spec:
   labels: 
-    app.kubernetes.io/name: proxy
+    app: tomcat
   ports: 
     - protocol: TCP
       port: 80
